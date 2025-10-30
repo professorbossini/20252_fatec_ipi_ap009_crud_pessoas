@@ -3,7 +3,7 @@ package br.gov.sp.cps.fatecipiranga.db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 public class ConnectionFactory {
-  private static String host = "10.67.172.110";
+  private static String host = "localhost";
   private static String port = "5432";
   private static String user = "postgres";
   private static String password = "postgres";
