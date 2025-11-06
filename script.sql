@@ -1,10 +1,12 @@
--- Active: 1761852258535@@127.0.0.1@5432@20252_fatec_ipi_poo_bossini_v2
+-- Active: 1762454782316@@pg-10ccdd47-professorbossini.e.aivencloud.com@12956@defaultdb
 CREATE TABLE tb_pessoa(
   cod_pessoa SERIAL PRIMARY KEY,
   nome VARCHAR(200) NOT NULL,
   fone VARCHAR(200) NOT NULL,
   email VARCHAR(200) NULL
 );
+
+SELECT * FROM tb_pessoa;
 CREATE TABLE tb_pet(
   cod_pet INT PRIMARY KEY,
   cod_pessoa INT,

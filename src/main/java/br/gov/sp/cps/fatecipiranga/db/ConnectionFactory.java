@@ -3,11 +3,11 @@ package br.gov.sp.cps.fatecipiranga.db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 public class ConnectionFactory {
-  private static String host = "localhost";
-  private static String port = "5432";
-  private static String user = "postgres";
-  private static String password = "postgres";
-  private static String database = "20252_fatec_ipi_poo_bossini";
+  private static String host = "pg-10ccdd47-professorbossini.e.aivencloud.com";
+  private static String port = "12956";
+  private static String user = "avnadmin";
+  private static String password = "";
+  private static String database = "defaultdb";
 
   static Connection getConnection(){
     try{
